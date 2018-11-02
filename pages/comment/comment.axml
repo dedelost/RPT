@@ -1,0 +1,56 @@
+<view class="comment">
+  <view class="photo">
+    <view class="name">生态厕所</view>
+    <view class="score">
+      <image src="/image/star.png" class="star" />
+      <image src="/image/star.png" class="star" />
+      <image src="/image/star.png" class="star" />
+      <image src="/image/star.png" class="star" />
+      <image src="/image/nostar.png" class="star" />
+    </view>
+  </view>
+  <view class="description">
+    管理单位
+  </view>
+  <view class="manager">
+    上海市闵行区环卫局
+  </view>
+  <view class="dialog">
+    <view class="userinfo">
+      <image src="/image/toileticon.png" class="portrait" />
+      <view class="user">
+        <view class="username">Jony Blake</view>
+        <view class="usertime">1 hour ago</view>
+      </view>
+      <image class="down" src="/image/down.png"/>
+    </view>
+    <view class="text">
+      感觉不错!!!
+    </view>
+    <view class="control">
+      <image src="/image/share.png" class="shareIcon"/>
+      <view class="interaction">
+        256<image src="/image/chart.png" class="chart"/>
+        4k<image src="/image/heart.png" class="heart"/>
+      </view>
+    </view>
+  </view>
+  <view class="dialog">
+    <view class="userinfo">
+      <image src="/image/toileticon.png" class="portrait" />
+      <view class="user">
+        <view class="username">Jony Blake</view>
+        <view class="usertime">2 hour ago</view>
+      </view>
+      <image class="down" src="/image/down.png"/>
+    </view>
+    <view class="text">When one door of happiness closes, another opens, but often we look so long at the closed door that we do not see the one that has been opened for us.</view>
+    <view class="control">
+      <image src="/image/share.png" class="shareIcon"/>
+      <view class="interaction">        256
+        <image src="/image/chart.png" class="chart"/>        4k
+        <image src="/image/heart.png" class="heart"/>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/menu/menu",
+    "pages/user/user",
+    "pages/history/history",
+    "pages/comment/comment"
+  ],
+  "window": {
+    "defaultTitle": "厕所在哪儿"
+  }
+}

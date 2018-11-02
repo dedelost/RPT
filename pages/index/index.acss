@@ -1,0 +1,99 @@
+
+.cover {
+  position: absolute;
+  bottom: 50rpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.scan{
+  z-index: 1;
+  width: 3.5rem;
+  height: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+.tabs-bar-tab {
+  bottom: 0;
+  flex: 1;
+  display: inline-block;
+  border-radius: 10px;
+  width: 50%;
+  justify-content: center;
+}
+
+.tabs-bar-tab {
+  font-size: 0.4rem;
+}
+
+.tabs-bar-tab-title {
+  color: white;
+  padding: 16rpx 0;
+  text-align: center;
+  align-items: center;
+  border-bottom: 3px solid transparent;
+  box-sizing: border-box;
+  background-color: #56B1FC;
+}
+
+.tabs-bar-tab-title.active {
+  font-weight: bold;
+  background-color: #3497FD;
+  border-bottom: 3px solid #1371F7;
+}
+
+.toilet {
+  height: 35vh;
+  color: white;
+  padding: 7vw 5vw;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: #2A2E43;
+}
+
+.toiletstat {
+  font-size: 0.25rem;
+  color: #A6A8B2;
+  text-align: center;
+  width: 28vw;
+  border-radius: 5px;
+  height: 20vw;
+  display: inline-block;
+  background-color: rgba(53, 58, 80, 1);
+}
+.imgIcon {
+  border-radius: 5px;
+  width: 28vw;
+  height: 12vw;
+}
+.toiletIcon {
+  width: 13vw;
+  height: 13vw;
+  margin-right: 5vw;
+  border-radius: 3vw;
+}
+.service {
+  display: inline-block;
+}
+.serviceItem {
+  display: inline-block;
+  width: 6vw;
+  height: 6vw;
+  margin: 0.2vw;
+}
+.detailed {
+  margin-top: 5vw;
+}
+.serbtn {
+  display: inline-block;
+  position:relative;
+  left:15vw;
+  top: -6vw;
+  width: 18vw;
+  height: 6vw;
+  text-align: center;
+  line-height: 6vw;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.3rem;
+}

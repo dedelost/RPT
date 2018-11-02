@@ -1,0 +1,99 @@
+.comment {
+  background-color: #2A2E43;
+}
+.photo {
+  width: 93vw;
+  height: 15.2vh;  
+  padding-top: 23vh;
+  padding-left: 7vw;
+  background-image: url("/image/photo.png");
+}
+.name {
+  color: white;
+  font-size: 0.65rem;
+}
+.score {
+  margin-top: 3vw;
+}
+.star {
+  width: 6vw;
+  height: 6vw;
+}
+.description {
+  color: white;
+  height: 10vh;
+  padding-left: 7vw;
+  font-size: 0.5rem;
+  line-height: 10vh;
+}
+.manager {
+  color: #B6B8C0;
+  padding-left: 7vw;
+  font-size: 0.35rem;
+  padding-bottom: 2vh; 
+}
+
+.dialog {
+  margin: 5vw;
+  padding: 5vw;
+  width: 80vw;
+  height: 49vw;
+  border-radius: 5px;
+  background-color: #353A50;
+}
+.userinfo {
+  height: 13vw;
+}
+.user {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 3vw;
+}
+.username {
+  color: white;
+  font-size: 0.37rem;
+  line-height: 0.4rem;
+}
+.usertime {
+  color: #B6B8C0;
+  font-size: 0.3rem;
+  line-height: 0.33rem;
+}
+.down {
+  float: right;
+  width: 5vw;
+  height: 5vw;
+}
+.portrait {
+  width: 11vw;
+  height: 11vw;
+}
+.text {
+  height: 22vw;
+  padding: 4vw 0;
+  margin-bottom: 2vw;
+  color: #B6B8C0;
+  border-bottom: 1px solid #B6B8C0;
+}
+.control {
+  height: 7vw;
+}
+.shareIcon {
+  width: 6vw;
+  height: 6vw;
+  float: left;
+}
+.chart {
+  width: 6vw;
+  height: 6vw;
+  margin-right: 6vw;
+  margin-left: 2vw; 
+}
+.heart {
+  width: 6vw;
+  height: 6vw;
+  margin-left: 2vw; 
+}
+.interaction {
+  float: right;
+}

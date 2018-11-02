@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+      "grid": "/node_modules/mini-antui/es/grid/index"
+  }
+}

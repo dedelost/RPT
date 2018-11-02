@@ -1,0 +1,48 @@
+<view>   
+  <view class="toptab">
+    <block a:for="{{tabs}}">
+      <view class="tabs-bar-tab" data-index="{{index}}" onTap="onTabBarTap">
+        <view class="tabs-bar-tab-title {{activeTab === index ? 'active' : ''}}">{{item}}</view>
+      </view>
+    </block>
+  </view>
+  <map id="map"
+    style="{{mapheight}}"
+    longitude="{{mylongitude}}"
+    latitude="{{mylatitude}}" 
+    scale="{{scale}}" 
+    controls="{{controls}}" 
+    onControlTap="controltap" 
+    markers="{{markers}}"
+    onMarkerTap="markertap" 
+    onCalloutTap="callouttap"
+    polyline="{{polyline}}" 
+    circles="{{circles}}" 
+    onRegionChange="regionchange" 
+    onTap="tap"  
+    show-location
+    include-points="{{includePoints}}">
+  </map>
+  <view class="toilet">
+    <view class="toiletstat" style="margin-right: 2.5vw">
+      <image src="/image/car.png" class="imgIcon"/>
+      贡献324份爱心
+    </view>
+    <view class="toiletstat" style="margin-right: 2.5vw">
+      <image src="/image/person.png" class="imgIcon" />
+      服务2398人次
+    </view>
+    <view class="toiletstat">
+      <image src="/image/bus.png" class="imgIcon" />
+      AAA级别
+    </view>
+    <view class="detailed" onTap="gocomment">
+      <image src="/image/toileticon.png" class="toiletIcon" />
+      <view class="service">
+        <view style="font-size: 0.35rem">{{toiletName}}</view>
+        <image a:for="{{icons}}" src="{{item}}" class="serviceItem" />
+      </view>
+      <view class="serbtn">服务中</view>
+    </view>
+  </view>
+</view>

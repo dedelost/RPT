@@ -1,0 +1,12 @@
+<template name="staffName">
+  <view class="timesty"> {{dateTime}}</view>
+  <view class="staffList"> 
+    <view class="place">{{firstPlace}}</view>
+    <view class="msg" style="border-bottom: 2px solid #F7F7FA">{{firstMsg}}</view>
+    <view class="place">{{lastPlace}}</view>
+    <view class="msg">{{lastMsg}}</view>
+  </view>
+</template>
+<view style="width: 100%;">
+  <template a:for="{{items}}" is="staffName" data="{{...item}}"></template>
+</view>

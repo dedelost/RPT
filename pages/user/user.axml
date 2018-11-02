@@ -1,0 +1,18 @@
+<view>
+  <image style="" class="avatar" mode="{{userInfo.mode}}" src="{{userInfo.src}}" onError="imageError" onLoad="imageLoad" />
+  <view class="name">{{name}}</view>
+  <view class="middleItem">
+    <view class="aixin">125
+      <view class="msg">爱心</view>
+    </view>
+    <view class="aixin tiyan">150
+      <view class="msg">体验</view>
+    </view>
+    <view class="aixin">321
+      <view class="msg">评论</view>
+    </view>
+  </view>
+  <view class="onItem">
+    <grid onGridItemClick="onItemClick" circular="true" columnNum="{{3}}" list="{{list3}}" />
+  </view>
+</view>
